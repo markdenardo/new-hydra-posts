@@ -2,7 +2,8 @@
 // rinse/repeat
 // by MDN
 // IG: markdenardo
+const f=(a.fft[2])
 const arr=[1,2,3]
 const arm=(arr.map(n=>n*Math.random(Math.PI)))
-voronoi(arr.ease('sin'),1,1).rotate(arr,arm.fast()).modulate(o0,0.5).color(arr.smooth(),1,10).out(o0)
+voronoi(arr.ease('sin'),1,arm).rotate(arr,arm.fast(f)).modulate(o0,0.5).color(arr.smooth(f),1,10).colorama(f).out(o0)
 render(o0)
