@@ -1,0 +1,6 @@
+s0.initScreen()
+num=()=>Math.random(Math.PI)*100
+src(s0)
+	.pixelate(num,num)
+	.out(o0)
+render(o0)
